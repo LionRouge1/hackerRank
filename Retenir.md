@@ -6,8 +6,13 @@
 - ##=> 14-00-01
 
 ## scan
-> `'sossos'.scan('sos')
-- ##=> ['sos', 'sos']`
+> `'sossos'.scan('sos')`
+- ##=> ['sos', 'sos']
 
-> `'toto mange'.scan(/.{3}/)
-- ##=> ['tot', 'o m', 'ang']`
+> `'toto mange'.scan(/.{3}/)`
+- ##=> ['tot', 'o m', 'ang']
+
+## combination 
+> `a = [1,2,3]</br>
+> a.combination(2).to_a`
+- ##=> [[1,2],[1,3],[2,3]]
